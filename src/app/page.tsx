@@ -1,6 +1,7 @@
 import Encryption from "@/components/Encryption";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
+import About from "@/components/About";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <Encryption />
+        <About />
       </div>
     </main>
   );

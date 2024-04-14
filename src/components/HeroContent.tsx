@@ -17,7 +17,7 @@ function HeroContent() {
                     className='Welcome-box py-[8px] px-[8px] border border-[#7042f88b] opacity-[0.9]'
                 >
                     <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                    <h1 className='Welcome-text text-[13px]'>Desenvolvedor Front-end e Mobile</h1>
+                    <h1 className='Welcome-text text-[13px]'>Desenvolvedor FullStack</h1>
                 </motion.div>
 
                 <motion.div
@@ -34,7 +34,7 @@ function HeroContent() {
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >
-                    Eu sou um Desenvolvedor de Software com experiência em criação de websites e aplicativos mobile. Conheça meus projetos e habilidades.
+                    Eu sou um Desenvolvedor de Software com experiência em criação de websites e sistemas web. Conheça meus projetos e habilidades.
                 </motion.p>
                 <div className='flex gap-4 w-full'>
                     <motion.a

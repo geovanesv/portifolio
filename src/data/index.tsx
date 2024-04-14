@@ -82,16 +82,25 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
       name: "Instagram",
-      src: "/discord.svg",
+      src: "/instagram.svg",
+      link:"https://www.instagram.com/_geovane_araujo_/",
+    },
+    {
+      name: "GitHub",
+      src: "/gitwhite.png",
+      link:"https://github.com/geovanesv",
+      
+    },
+    {
+      name: "Linkedin",
+      src: "/linkedinwhite.png",
+      link:"https://www.linkedin.com/in/geovane-araujo-07str/",
+    },
+    {
+      name: "X",
+      src: "/ex-twitter.png",
+      link:"https://twitter.com/Geovane_ofc206",
     },
   ];
   
