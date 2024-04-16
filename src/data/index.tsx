@@ -82,9 +82,9 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Instagram",
-      src: "/instagram.svg",
-      link:"https://www.instagram.com/_geovane_araujo_/",
+      name: "Linkedin",
+      src: "/linkedinwhite.png",
+      link:"https://www.linkedin.com/in/geovane-araujo-07str/",
     },
     {
       name: "GitHub",
@@ -93,9 +93,9 @@ export const Skill_data = [
       
     },
     {
-      name: "Linkedin",
-      src: "/linkedinwhite.png",
-      link:"https://www.linkedin.com/in/geovane-araujo-07str/",
+      name: "Instagram",
+      src: "/instagram.svg",
+      link:"https://www.instagram.com/_geovane_araujo_/",
     },
     {
       name: "X",
@@ -171,37 +171,37 @@ export const Skill_data = [
   
   export const Backend_skill = [
     {
-      skill_name: "Node js",
+      skill_name: "Nodejs",
       Image: "/node-js.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Express js",
+      skill_name: "Expressjs",
       Image: "/express.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Mongo db",
+      skill_name: "Mongodb",
       Image: "/mongodb.png",
       width: 40,
       height: 40,
     },
     {
-      skill_name: "Fire base",
+      skill_name: "Firebase",
       Image: "/Firebase.png",
       width: 55,
       height: 55,
     },
     {
-      skill_name: "Postger SQL",
+      skill_name: "PostgerSQL",
       Image: "/postger.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "My SQL",
+      skill_name: "MySQL",
       Image: "/mysql.png",
       width: 70,
       height: 70,
@@ -224,12 +224,6 @@ export const Skill_data = [
     {
       skill_name: "React Native",
       Image: "/ReactNative .png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
       width: 70,
       height: 70,
     },
@@ -261,6 +255,134 @@ export const Skill_data = [
   ];
   
   
-  
+  import {
+    RiGraduationCapFill,
+    RiCalendarFill,
+    RiMailFill,
+    RiPhoneFill,
+    RiHomeFill,
+    RiUserFill
+} from "react-icons/ri";
+
+export const infoData = [
+    {
+        icon: <RiUserFill size={20} />,
+        text: "Vagner Mengali",
+    },
+    {
+        icon: <RiMailFill size={20} />,
+        text: "contatovagnermengali@gmail.com",
+    },
+    {
+        icon: <RiGraduationCapFill size={20} />,
+        text: "Desenvolvedor full stack",
+    },
+    {
+        icon: <RiHomeFill size={20} />,
+        text: "São Paulo, São Paulo, Brasil",
+    },
+];
+
+export const qualificationData = [
+          
+    {
+      school: "Instituto Federal do Ceará - IFCE",
+      qualification: "Bacharel em Ciência da Computação",
+      years: "ago de 2019 - dez de 2023",
+    },
+    {
+        school: "Digital Innovation One",
+        qualification: "Developer Fullstack Javascript",
+        years: "mar de 2022 - dez de 2022",
+    },
+];
+
+export const skillsData = [
+    {
+        title: "skills",
+        data: [
+            {
+                icons: [
+                    "HTML",
+                    "CSS",
+                    "Styled Components",
+                    "TailwindCSS",
+                ],
+            },
+            {
+                icons: [
+                    "JavaScript",
+                    "TypeScript",
+                    "React",
+                    "NextJs",
+                ],
+            },
+            {
+                icons: [
+                    "NodeJS",
+                    "NestJS",
+                    "Express",
+                    "PrismaJs",
+                ],
+            },
+            {
+                icons: [
+                    "Jest",
+                    "Django",
+                    "Git",
+                    "Figma",
+                ],
+            },
+            {
+                icons: [
+                    "MongoDB",
+                    "PostgreSQL",
+                    "",
+                    "",
+                ],
+            },
+            {
+                icons: [
+                    "Docker",
+                    "SQlite",
+                    "",
+                    "",
+                ],
+            },
+            {
+                icons: [
+                    "Sass",
+                    "Vtex",
+                ],
+            },
+        ],
+    },
+    {
+        title: "tools",
+        data: [
+            {
+                imgPath: "Windows",
+            },
+            {
+                imgPath: "Linux",
+            },
+            {
+                imgPath: "Vscode",
+            },
+            {
+                imgPath: "Insomnia",
+            },
+            {
+                imgPath: "Jira",
+            },
+            {
+                imgPath: "Notion",
+            },
+            {
+                imgPath: "Trello",
+            },
+        ],
+    },
+];
   
   

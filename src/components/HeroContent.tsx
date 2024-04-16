@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
+import { Socials } from '@/data'
 
 function HeroContent() {
     return (
@@ -13,8 +14,9 @@ function HeroContent() {
             className='flex flex-row items-center justify-center px-20 mt-20 w-full z-[20]'>
             <div className='h-full w-full flex flex-col gap-2 justify-center m-auto text-start'>
                 <motion.div
-                    variants={slideInFromTop(2)}
+                    variants={slideInFromTop(1)}
                     className='Welcome-box py-[8px] px-[8px] border border-[#7042f88b] opacity-[0.9]'
+                    style={{marginBottom:"-55px"}}
                 >
                     <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
                     <h1 className='Welcome-text text-[13px]'>Desenvolvedor FullStack</h1>
@@ -24,9 +26,10 @@ function HeroContent() {
                     variants={slideInFromLeft(0.5)}
                     className='flex flex-col gap-4  text-6xl font-bold text-white max-w-[600px] w-auto h-auto'>
                     <span>
-                        Criando
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> a sua melhor </span>
-                        experiência
+                        Olá, meu nome é <br />
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+                            Geovane Araujo
+                        </span>
                     </span>
 
                 </motion.div>
@@ -34,13 +37,15 @@ function HeroContent() {
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >
-                    Eu sou um Desenvolvedor de Software com experiência em criação de websites e sistemas web. Conheça meus projetos e habilidades.
+                    Eu sou um Desenvolvedor Full Stack com experiência em criação de websites e sistemas web. Conheça meus projetos e habilidades.
                 </motion.p>
                 <div className='flex gap-4 w-full'>
                     <motion.a
                         variants={slideInFromLeft(1)}
                         className='py-2 px-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
-                        Saber mais!
+                        <a href="#contato">
+                            contate-me
+                        </a>
                     </motion.a>
                     <motion.a
                         variants={slideInFromLeft(1)}
@@ -48,6 +53,21 @@ function HeroContent() {
                         Baixar CV
                     </motion.a>
                 </div>
+                <div className="py-4 px-8">
+
+                        <div className='flex gap-4 w-full'>
+                            {Socials?.map((social, index) => (
+                                <a href={social.link} key={index} target='_blank'>
+                                    <img
+                                        src={social.src}
+                                        alt={social.name}
+                                        width={24}
+                                        height={24}
+                                        />
+                                </a>
+                            ))}
+                        </div>
+                    </div>
 
             </div>
             <motion.div
