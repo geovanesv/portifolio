@@ -39,7 +39,7 @@ function Navbar() {
                 <div className='flex items-center'>
                     <a href="#">
                         <span className='font-bold text-gray-300 hidden md:block'>
-                            Geovane Araujo Dev
+                            Geovane Araujo
                         </span>
                     </a>
                 </div>
@@ -48,10 +48,10 @@ function Navbar() {
                 {!isMobile && (
                     <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
                         <div className='flex w-full h-auto items-center justify-between font-semibold border border-[#7042f861] text-gray-300 bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full'>
-                            <a href="#about" className={`text-gray-300 hover:text-white ${activeMenu === 'about' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('about')}>Sobre mim</a>
-                            <a href="#skills" className={`text-gray-300 hover:text-white ${activeMenu === 'skills' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('skills')}>Habilidades</a>
-                            <a href="#projetos" className={`text-gray-300 hover:text-white ${activeMenu === 'projetos' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('projetos')}>Projetos</a>
-                            <a href="#contato" className={`text-gray-300 hover:text-white ${activeMenu === 'contato' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('contato')}>Contato</a>
+                            <a href="#" className={`text-gray-300 hover:text-white ${activeMenu === 'hero' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('hero')}>Home</a>
+                            <a href="#about" className={`text-gray-300 hover:text-white ${activeMenu === 'about' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('about')}>Sobre</a>
+                            <a href="#skills" className={`text-gray-300 hover:text-white ${activeMenu === 'skills' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('skills')}>Skils</a>
+                            <a href="#projects" className={`text-gray-300 hover:text-white ${activeMenu === 'projects' ? 'font-bold text-white' : ''}`} onClick={() => handleMenuClick('projects')}>Projetos</a>
                         </div>
                     </div>
                 )}
@@ -68,10 +68,10 @@ function Navbar() {
             <div className={`md:hidden fixed top-0 right-0 z-50 bg-[#03001447] w-64 h-full transition-transform transform ${isSidebarOpen ? '' : 'translate-x-full'}`}>
                 <div className="py-4 px-8">
                     <div className="flex flex-col gap-4">
-                        <a href="#about" className={`text-gray-300 hover:text-white ${activeMenu === 'about' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('about'); toggleSidebar(); }}>Sobre mim</a>
-                        <a href="#skills" className={`text-gray-300 hover:text-white ${activeMenu === 'skills' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('skills'); toggleSidebar(); }}>Habilidades</a>
-                        <a href="#projetos" className={`text-gray-300 hover:text-white ${activeMenu === 'projetos' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('projetos'); toggleSidebar(); }}>Projetos</a>
-                        <a href="#contato" className={`text-gray-300 hover:text-white ${activeMenu === 'contato' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('contato'); toggleSidebar(); }}>Contato</a>
+                        <a href="#" className={`text-gray-300 hover:text-white ${activeMenu === 'hero' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('hero'); toggleSidebar(); }}>Home</a>
+                        <a href="#about" className={`text-gray-300 hover:text-white ${activeMenu === 'about' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('about'); toggleSidebar(); }}>Sobre</a>
+                        <a href="#skills" className={`text-gray-300 hover:text-white ${activeMenu === 'skills' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('skills'); toggleSidebar(); }}>Skills</a>
+                        <a href="#projects" className={`text-gray-300 hover:text-white ${activeMenu === 'projetos' ? 'font-bold text-white' : ''}`} onClick={() => { handleMenuClick('projetos'); toggleSidebar(); }}>Projetos</a>
                     </div>
 
                     <div className="flex justify-center gap-5 text-white mt-8">

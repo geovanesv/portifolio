@@ -149,12 +149,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+   
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -171,16 +166,22 @@ export const Skill_data = [
   
   export const Backend_skill = [
     {
+      skill_name: "Laravel",
+      Image: "/laravel.png",
+      width: 90,
+      height: 90,
+    },
+    {
       skill_name: "Nodejs",
       Image: "/node-js.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Expressjs",
-      Image: "/express.png",
-      width: 80,
-      height: 80,
+      skill_name: "Nestjs",
+      Image: "/nest.png",
+      width: 90,
+      height: 90,
     },
     {
       skill_name: "Mongodb",
@@ -212,12 +213,7 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
-      width: 80,
-      height: 80,
-    },
+  
   ];
   
   export const Full_stack = [
@@ -246,12 +242,7 @@ export const Skill_data = [
   
   
   export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
+    
   ];
   
   
@@ -267,11 +258,11 @@ export const Skill_data = [
 export const infoData = [
     {
         icon: <RiUserFill size={20} />,
-        text: "Vagner Mengali",
+        text: "Geovane Araujo",
     },
     {
         icon: <RiMailFill size={20} />,
-        text: "contatovagnermengali@gmail.com",
+        text: "geovanesv89@gmail.com",
     },
     {
         icon: <RiGraduationCapFill size={20} />,
@@ -279,7 +270,7 @@ export const infoData = [
     },
     {
         icon: <RiHomeFill size={20} />,
-        text: "São Paulo, São Paulo, Brasil",
+        text: "Fortaleza, Ceará, Brasil",
     },
 ];
 
@@ -385,4 +376,26 @@ export const skillsData = [
     },
 ];
   
-  
+export const projectData = [
+  {
+    title: "Psi Eduarda Mendes",
+    backgroundImg: "/images/Psicologa-Eduarda-Mendes.gif",
+    websiteUrl: "https://psieduardamendes.com.br",
+    projectUrl: "https://github.com/geovanesv/psicologa-eduarda-mendes",
+    tech: "HTML,CSS,React,Hooks, NextJS"
+  },
+  {
+    title: "App Inventário",
+    backgroundImg: "/images/app_inventario.gif",
+    websiteUrl: "https://github.com/geovanesv/app_Inventario",
+    projectUrl: "https://github.com/geovanesv/app_Inventario",
+    tech: "HTML,Styled-components,React,Express JS,NodeJS, MongoDB,"
+  },
+  {
+    title: "Controle FInanceiro",
+    backgroundImg: "/images/controle_financeiro.png",
+    websiteUrl: "https://github.com/geovanesv/controle-financeiro",
+    projectUrl: "https://github.com/geovanesv/controle-financeiro",
+    tech: "HTML,CSS,React,Hooks,Laravel,PHP"
+  }
+];
