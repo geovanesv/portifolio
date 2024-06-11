@@ -50,10 +50,10 @@ function HeroContent() {
                     <motion.a
                         variants={slideInFromLeft(1)}
                         className='py-2 px-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
-                        <a href="#">
+                        <a href="/CV_GEOVANE_ARAUJO.pdf" target='blank'>
                             Baixar CV
                         </a>
-                    </motion.a>
+                    </motion.a> 
                 </div>
                 <div className="py-4 px-8">
 
